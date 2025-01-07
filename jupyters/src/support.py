@@ -187,7 +187,7 @@ def normality_test(dataframe, metric, method='shapiro', alpha=0.05):
 
     Parameters:
     - metric (str): The name of the metric to be analyzed.
-    - method (str): The method to use for the normality test ('shapiro' or 'ks').
+    - method (str): The method to use for the normality test ('shapiro' for small samples (n < 50) or 'ks' for bigger samples).
     - alpha (float): The significance level for the normality test (default is 0.05).
 
     Returns:
